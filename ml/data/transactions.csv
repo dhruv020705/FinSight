@@ -1,0 +1,211 @@
+description,category
+ordered pizza for dinner,Food
+bought burger from mcdonalds,Food
+ordered food from zomato,Food
+swiggy dinner order,Food
+lunch at restaurant,Food
+breakfast at cafe,Food
+bought groceries from dmart,Food
+grocery shopping at reliance fresh,Food
+coffee from starbucks,Food
+tea and snacks,Food
+ordered biryani online,Food
+dinner with friends,Food
+bought vegetables from market,Food
+purchased fruits,Food
+restaurant bill payment,Food
+food delivery payment,Food
+ordered sandwich for lunch,Food
+bought milk and bread,Food
+monthly grocery shopping,Food
+purchased snacks from supermarket,Food
+dominos pizza order,Food
+kfc food order,Food
+zomato restaurant payment,Food
+swiggy food delivery,Food
+canteen lunch payment,Food
+bought ice cream,Food
+dinner at hotel restaurant,Food
+ordered noodles for dinner,Food
+grocery store payment,Food
+bought chocolates and snacks,Food
+uber ride to airport,Transport
+ola cab to office,Transport
+metro ticket payment,Transport
+bus ticket to college,Transport
+petrol refill,Transport
+diesel fuel payment,Transport
+cab ride home,Transport
+auto rickshaw fare,Transport
+train ticket booking,Transport
+irctc railway ticket,Transport
+flight ticket booking,Transport
+airport taxi payment,Transport
+uber ride to college,Transport
+ola ride to railway station,Transport
+monthly metro pass,Transport
+bus pass renewal,Transport
+fuel at petrol pump,Transport
+parking fee payment,Transport
+highway toll payment,Transport
+bike fuel refill,Transport
+cab booking payment,Transport
+railway reservation,Transport
+local bus fare,Transport
+taxi ride to hotel,Transport
+uber trip payment,Transport
+ola cab booking,Transport
+petrol pump payment,Transport
+metro card recharge,Transport
+train journey ticket,Transport
+airport cab fare,Transport
+monthly salary credited,Salary
+salary received from company,Salary
+monthly salary received,Salary
+company salary payment,Salary
+salary credited to bank account,Salary
+office salary credited,Salary
+monthly wages received,Salary
+salary deposit,Salary
+employer salary transfer,Salary
+salary payment received,Salary
+monthly income from employer,Salary
+paycheck credited,Salary
+salary for this month,Salary
+company payroll credited,Salary
+monthly payroll received,Salary
+salary transfer from employer,Salary
+work salary received,Salary
+salary amount deposited,Salary
+monthly job salary,Salary
+salary credited successfully,Salary
+employee salary received,Salary
+office payroll payment,Salary
+monthly pay credited,Salary
+company payment for work,Salary
+salary income received,Salary
+employer payment received,Salary
+monthly earnings credited,Salary
+payroll deposit,Salary
+salary from office,Salary
+monthly employee payment,Salary
+bought shoes from amazon,Shopping
+ordered clothes from myntra,Shopping
+flipkart shopping payment,Shopping
+bought new headphones,Shopping
+purchased laptop online,Shopping
+bought mobile phone,Shopping
+amazon shopping order,Shopping
+myntra clothing purchase,Shopping
+ordered shirt online,Shopping
+bought jeans from mall,Shopping
+purchased new backpack,Shopping
+bought smartwatch online,Shopping
+ordered books from amazon,Shopping
+bought phone cover,Shopping
+purchased electronics online,Shopping
+shopping at mall,Shopping
+bought new clothes,Shopping
+online shopping payment,Shopping
+purchased shoes from store,Shopping
+bought computer accessories,Shopping
+ordered keyboard online,Shopping
+purchased mouse from amazon,Shopping
+bought jacket from myntra,Shopping
+flipkart electronics order,Shopping
+purchased new watch,Shopping
+bought sunglasses,Shopping
+ordered t shirt online,Shopping
+bought home accessories,Shopping
+purchased bag from store,Shopping
+amazon product purchase,Shopping
+electricity bill payment,Utilities
+paid water bill,Utilities
+jio mobile recharge,Utilities
+airtel mobile recharge,Utilities
+broadband bill payment,Utilities
+wifi bill payment,Utilities
+gas bill payment,Utilities
+electricity payment online,Utilities
+monthly internet bill,Utilities
+phone bill payment,Utilities
+mobile recharge payment,Utilities
+paid airtel broadband bill,Utilities
+jio fiber bill payment,Utilities
+water utility payment,Utilities
+cooking gas payment,Utilities
+monthly electricity bill,Utilities
+internet recharge,Utilities
+prepaid mobile recharge,Utilities
+postpaid phone bill,Utilities
+wifi recharge payment,Utilities
+broadband subscription payment,Utilities
+electricity board payment,Utilities
+gas cylinder payment,Utilities
+mobile data recharge,Utilities
+internet service bill,Utilities
+water supply bill,Utilities
+phone recharge,Utilities
+jio recharge payment,Utilities
+airtel internet bill,Utilities
+utility bill payment,Utilities
+netflix monthly subscription,Entertainment
+spotify premium subscription,Entertainment
+movie ticket at pvr,Entertainment
+cinema ticket booking,Entertainment
+hotstar subscription,Entertainment
+amazon prime subscription,Entertainment
+youtube premium payment,Entertainment
+gaming subscription payment,Entertainment
+booked movie tickets,Entertainment
+concert ticket payment,Entertainment
+netflix subscription payment,Entertainment
+spotify monthly payment,Entertainment
+movie night tickets,Entertainment
+pvr cinema payment,Entertainment
+online game purchase,Entertainment
+steam game purchase,Entertainment
+disney hotstar payment,Entertainment
+prime video subscription,Entertainment
+music streaming subscription,Entertainment
+cinema booking payment,Entertainment
+concert booking,Entertainment
+gaming purchase,Entertainment
+movie theatre payment,Entertainment
+netflix renewal,Entertainment
+spotify renewal,Entertainment
+ott subscription payment,Entertainment
+video streaming subscription,Entertainment
+game purchase online,Entertainment
+movie booking online,Entertainment
+entertainment subscription,Entertainment
+doctor consultation,Healthcare
+purchased medicine from pharmacy,Healthcare
+hospital bill payment,Healthcare
+medical checkup payment,Healthcare
+apollo pharmacy purchase,Healthcare
+doctor appointment fee,Healthcare
+blood test payment,Healthcare
+medical laboratory payment,Healthcare
+bought medicines,Healthcare
+hospital consultation,Healthcare
+health checkup payment,Healthcare
+pharmacy medicine order,Healthcare
+online doctor consultation,Healthcare
+medical treatment payment,Healthcare
+hospital treatment bill,Healthcare
+purchased tablets from pharmacy,Healthcare
+diagnostic test payment,Healthcare
+clinic consultation fee,Healthcare
+medicine delivery payment,Healthcare
+apollo hospital payment,Healthcare
+medical scan payment,Healthcare
+doctor visit payment,Healthcare
+healthcare bill payment,Healthcare
+pharmacy purchase,Healthcare
+hospital test payment,Healthcare
+medical consultation,Healthcare
+bought prescription medicine,Healthcare
+laboratory test bill,Healthcare
+clinic treatment payment,Healthcare
+medicine purchase,Healthcare

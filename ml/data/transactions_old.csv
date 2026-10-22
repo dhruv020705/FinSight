@@ -1,0 +1,86 @@
+description,category
+Pizza at Dominos,Food
+Dinner at restaurant,Food
+Lunch at cafe,Food
+Ordered burger online,Food
+Bought groceries from supermarket,Food
+Coffee at Starbucks,Food
+Breakfast at restaurant,Food
+Food delivery from Zomato,Food
+Swiggy dinner order,Food
+Bought vegetables and fruits,Food
+Restaurant bill payment,Food
+Snacks from grocery store,Food
+Pizza delivery,Food
+Lunch with friends,Food
+Dinner delivery,Food
+Uber ride to college,Transport
+Ola cab to office,Transport
+Metro ticket,Transport
+Bus ticket to college,Transport
+Petrol for car,Transport
+Diesel fuel payment,Transport
+Taxi ride to airport,Transport
+Train ticket booking,Transport
+Flight ticket booking,Transport
+Auto rickshaw fare,Transport
+Cab ride home,Transport
+Fuel station payment,Transport
+Railway ticket,Transport
+Parking fee,Transport
+Bike fuel,Transport
+Monthly salary credited,Salary
+Salary received from company,Salary
+Monthly paycheck,Salary
+Office salary payment,Salary
+Salary deposit,Salary
+Company payroll credited,Salary
+Monthly income from job,Salary
+Employee salary credited,Salary
+Salary transfer received,Salary
+Paycheck received,Salary
+Bought clothes online,Shopping
+Amazon shopping,Shopping
+Bought new shoes,Shopping
+Purchased headphones,Shopping
+Flipkart order,Shopping
+Bought laptop accessories,Shopping
+Purchased mobile phone,Shopping
+Shopping at mall,Shopping
+Bought new shirt,Shopping
+Online electronics purchase,Shopping
+Purchased books online,Shopping
+Bought backpack,Shopping
+New jeans purchase,Shopping
+Purchased watch online,Shopping
+Shopping for clothes,Shopping
+Electricity bill payment,Utilities
+Water bill payment,Utilities
+Gas bill payment,Utilities
+Internet bill payment,Utilities
+WiFi bill,Utilities
+Mobile recharge,Utilities
+Phone bill payment,Utilities
+Broadband bill,Utilities
+Electricity recharge,Utilities
+Utility bill payment,Utilities
+Netflix subscription,Entertainment
+Movie ticket,Entertainment
+Spotify subscription,Entertainment
+Cinema tickets,Entertainment
+Gaming subscription,Entertainment
+Disney Plus subscription,Entertainment
+Concert ticket,Entertainment
+YouTube Premium subscription,Entertainment
+Movie night,Entertainment
+Gaming purchase,Entertainment
+Doctor consultation,Healthcare
+Hospital bill,Healthcare
+Bought medicines,Healthcare
+Pharmacy purchase,Healthcare
+Medical checkup,Healthcare
+Dental treatment,Healthcare
+Health test payment,Healthcare
+Medicine from pharmacy,Healthcare
+Clinic consultation,Healthcare
+Hospital treatment payment,Healthcare
