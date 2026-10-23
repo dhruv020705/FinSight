@@ -1131,7 +1131,7 @@ export default function DashboardPage() {
 
     const response = await fetch(
 
-      "http://127.0.0.1:8000/budget-recommendations",
+      "https://finsight-ml-api.onrender.com/budget-recommendations",
 
       {
 
@@ -1243,7 +1243,7 @@ async function fetchSpendingAnomalies(
 
     const response = await fetch(
 
-      "http://127.0.0.1:8000/detect-anomalies",
+      "https://finsight-ml-api.onrender.com/detect-anomalies",
 
       {
 

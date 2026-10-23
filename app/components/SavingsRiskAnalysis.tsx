@@ -123,7 +123,7 @@ export default function SavingsRiskAnalysis({
         }
 
         const response = await fetch(
-          "http://127.0.0.1:8000/savings-risk",
+          "https://finsight-ml-api.onrender.com/savings-risk",
           {
             method: "POST",
             headers: {

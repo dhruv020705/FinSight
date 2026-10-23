@@ -55,7 +55,7 @@ type Props = {
 
 const API_URL =
   process.env.NEXT_PUBLIC_ML_API_URL ??
-  "http://127.0.0.1:8000";
+  "https://finsight-ml-api.onrender.com";
 
 const strategies: {
   id: Strategy;

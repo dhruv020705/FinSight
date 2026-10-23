@@ -205,7 +205,7 @@ export default function SavingsForecast({
         // ----------------------------------------------------
 
         const response = await fetch(
-          "http://127.0.0.1:8000/savings-forecast",
+          "https://finsight-ml-api.onrender.com/savings-forecast",
           {
             method: "POST",
             headers: {
