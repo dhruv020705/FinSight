@@ -681,7 +681,7 @@ export default function DashboardPage() {
 
         await fetch(
 
-          "http://127.0.0.1:8000/forecast",
+          "https://finsight-ml-api.onrender.com/forecast",
 
           {
 

@@ -433,7 +433,7 @@ export default function SavingsPage() {
 
         const response = await fetch(
 
-          "http://127.0.0.1:8000/savings-recommendations",
+          "https://finsight-ml-api.onrender.com/savings-recommendations",
 
           {
 

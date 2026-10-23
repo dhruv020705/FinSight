@@ -277,7 +277,7 @@ export default function TransactionsPage() {
 
       const response = await fetch(
 
-        "http://127.0.0.1:8000/predict",
+        "https://finsight-ml-api.onrender.com/predict",
 
         {
 
