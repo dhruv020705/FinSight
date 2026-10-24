@@ -10,35 +10,22 @@ export default function AuthCallbackPage() {
   );
 
   useEffect(() => {
-    let active = true;
+    let mounted = true;
 
-    async function completeLogin() {
+    async function handleCallback() {
       try {
-        const url = new URL(window.location.href);
+        const params = new URLSearchParams(window.location.search);
 
-        // Display errors returned by the OAuth provider.
-        const oauthError =
-          url.searchParams.get("error_description") ||
-          url.searchParams.get("error");
+        const error =
+          params.get("error_description") ||
+          params.get("error");
 
-        if (oauthError) {
-          throw new Error(oauthError);
+        if (error) {
+          throw new Error(error);
         }
 
-        const code = url.searchParams.get("code");
-
-        // Handle PKCE authorization code if present.
-        if (code) {
-          const { error } =
-            await supabase.auth.exchangeCodeForSession(code);
-
-          if (error) {
-            throw error;
-          }
-        }
-
-        // The default Supabase browser client can also
-        // process OAuth sessions automatically.
+        // The Supabase browser client handles the OAuth
+        // response and restores the session automatically.
         const {
           data: { session },
           error: sessionError,
@@ -50,28 +37,28 @@ export default function AuthCallbackPage() {
 
         if (!session) {
           throw new Error(
-            "No Supabase session found after Google sign-in."
+            "No session received. Check Google OAuth credentials and redirect settings."
           );
         }
 
         window.location.replace("/dashboard");
       } catch (error) {
-        console.error("Google OAuth callback error:", error);
+        console.error("OAuth callback:", error);
 
-        if (active) {
+        if (mounted) {
           setMessage(
             error instanceof Error
               ? error.message
-              : "Unable to complete Google authentication."
+              : "Google login failed."
           );
         }
       }
     }
 
-    void completeLogin();
+    void handleCallback();
 
     return () => {
-      active = false;
+      mounted = false;
     };
   }, []);
 
