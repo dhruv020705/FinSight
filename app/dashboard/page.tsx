@@ -1047,41 +1047,25 @@ export default function DashboardPage() {
 
         );
 
-        // =============================================
+        
+// Run ML features independently without blocking
+// the main dashboard from displaying.
 
-        // GENERATE AI BUDGET RECOMMENDATIONS
+void Promise.allSettled([
+  fetchBudgetRecommendations(userTransactions),
+  fetchSpendingAnomalies(userTransactions),
+  loadForecast(userTransactions),
+]).then((results) => {
+  results.forEach((result, index) => {
+    if (result.status === "rejected") {
+      console.error(
+        `Dashboard ML task ${index + 1} failed:`,
+        result.reason
+      );
+    }
+  });
+});
 
-        // =============================================
-
-        await fetchBudgetRecommendations(
-
-          userTransactions
-
-        );
-
-        // =============================================
-
-        // DETECT UNUSUAL SPENDING
-
-        // =============================================
-
-        await fetchSpendingAnomalies(
-
-          userTransactions
-
-        );
-
-        // ----------------------------------------------------
-
-        // GENERATE PERSONALIZED FORECAST
-
-        // ----------------------------------------------------
-
-        await loadForecast(
-
-          userTransactions
-
-        );
 
       } catch (error) {
 
